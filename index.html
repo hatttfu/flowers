@@ -7,6 +7,7 @@
     <link rel="icon" href="images/flower.png" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="all" href="css/animate.css">
 </head>
 <body>
 
@@ -94,7 +95,7 @@
 
                 <div class="companies__list">
 
-                    <div>
+                    <div class="fadeInRight wow">
                         <div class="icon">
                             <img src="images/shipped.png" alt="">
                         </div>
@@ -106,7 +107,7 @@
                         </div>
                     </div>
 
-                    <div>
+                    <div class="fadeInRight wow">
                         <div class="icon">
                             <img src="images/days.png" alt="">
                         </div>
@@ -118,7 +119,7 @@
                         </div>
                     </div>
 
-                    <div>
+                    <div class="fadeInRight wow">
                         <div class="icon">
                             <img src="images/different.png" alt="">
                         </div>
@@ -130,7 +131,7 @@
                         </div>
                     </div>
 
-                    <div>
+                    <div class="fadeInRight wow">
                         <div class="icon">
                             <img src="images/review.png" alt="">
                         </div>
@@ -142,7 +143,7 @@
                         </div>
                     </div>
 
-                    <div>
+                    <div class="fadeInRight wow">
                         <div class="icon">
                             <img src="images/discount.png" alt="">
                         </div>
@@ -154,7 +155,7 @@
                         </div>
                     </div>
 
-                    <div>
+                    <div class="fadeInRight wow">
                         <div class="icon">
                             <img src="images/bucket.png" alt="">
                         </div>
@@ -180,7 +181,7 @@
 
                 <div class="products__container">
 
-                    <div class="products__description">
+                    <div class="products__description fadeInRight wow">
                         <div class="title">
                             Наши предложения
                         </div>
@@ -379,22 +380,22 @@
                 </div>
                 <div class="about__block">
                     <div class="about__text">
-                        <p>
+                        <p class="fadeInRight wow">
                             Мы - профессионалы с большим опытом. Наша компания "Дари Цветы" на рынке уже 6 лет!   Работаем в двух направлениях: розничные и оптовые продажи благодаря чему мы можем предложить конкурентные цены в обоих направлениях.
                         </p>
                     
                    
                         <div class="about__description">
-                            <p>
+                            <p class="fadeInRight wow">
                                 Компания была основана в 2014 году и в настоящий момент функционирует сеть розничных магазинов и 1 оптовый склад. Мы осуществляем доставки по городу. На нашем счету уже более 5 лет безупречной работы на благо клиентов.
                             </p>
         
-                            <p>
+                            <p class="fadeInRight wow">
                                 Цель нашей компании – приносить в дом клиентов любовь и положительные эмоции! Покупая цветы у нас, вы можете быть уверены в свежести и качестве цветов!
                             </p>
                         </div>
 
-                        <a href="#buy">
+                        <a href="#buy" class="fadeInRight wow">
                             <button class="btn">
                                 Заказать букет!
                             </button>
@@ -421,7 +422,7 @@
 
                 <div class="offer__list">
                     <div class="payment">
-                        <div class="subtitle">
+                        <div class="subtitle fadeInRight wow">
                             Оплата
                         </div>
 
@@ -450,7 +451,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="subtitle">
+                        <div class="subtitle fadeInRight wow">
                             Доставка
                         </div>
                         <div class="payment__block">
@@ -490,7 +491,7 @@
         <div class="reviews">
             <div class="container">
                 <div class="review">
-                    <div class="review__header">
+                    <div class="review__header fadeInRight wow">
                         <div class="title">
                             Последние отзывы наших покупателей
                         </div>
@@ -530,10 +531,10 @@
         <a name="buy"></a>
         <div class="demo">
             <div class="container">
-                <div class="demo_title">
+                <div class="demo_title fadeInRight wow">
                     Радовать стало близких проще. <br /> Зачем ждать?
                 </div>
-                <div class="demo__text">
+                <div class="demo__text fadeInRight wow">
                     Подарите цветы любимым.
                 </div>
                 <div class="btns">
@@ -577,6 +578,9 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <!-- Подключение JS -->
     <script src="js/script.js"></script>
+    <!-- min.js -->
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </body>
 </html>
 
